@@ -1,0 +1,28 @@
+package gotripay
+
+type TRIPAY_CHANNEL string
+
+const (
+	CHANNEL_MYBVA          TRIPAY_CHANNEL = "MYBVA"          //Maybank Virtual Account
+	CHANNEL_PERMATAVA      TRIPAY_CHANNEL = "PERMATAVA"      // Permata VA
+	CHANNEL_BNIVA          TRIPAY_CHANNEL = "BNIVA"          // BNI VA
+	CHANNEL_BRIVA          TRIPAY_CHANNEL = "BRIVA"          // BRI VA
+	CHANNEL_MANDIRIVA      TRIPAY_CHANNEL = "MANDIRIVA"      // MANDIRI VA
+	CHANNEL_BCAVA          TRIPAY_CHANNEL = "BCAVA"          // BCA VA
+	CHANNEL_MUAMALATVA     TRIPAY_CHANNEL = "MUAMALATVA"     // Muamalat Virtual Account
+	CHANNEL_CIMBVA         TRIPAY_CHANNEL = "CIMBVA"         // CIMB Niaga Virtual Account
+	CHANNEL_BSIVA          TRIPAY_CHANNEL = "BSIVA"          // BSI Virtual Account
+	CHANNEL_OCBCVA         TRIPAY_CHANNEL = "OCBCVA"         // OCBC NISP Virtual Account
+	CHANNEL_DANAMONVA      TRIPAY_CHANNEL = "DANAMONVA"      // Danamon Virtual Account
+	CHANNEL_OTHERBANKVA    TRIPAY_CHANNEL = "OTHERBANKVA"    // Other Bank Virtual Account
+	CHANNEL_ALFAMART       TRIPAY_CHANNEL = "ALFAMART"       // ALFAMART
+	CHANNEL_INDOMARET      TRIPAY_CHANNEL = "INDOMARET"      // INDOMARET
+	CHANNEL_ALFAMIDI       TRIPAY_CHANNEL = "ALFAMIDI"       // ALFAMIDI
+	CHANNEL_OVO            TRIPAY_CHANNEL = "OVO"            // OVO
+	CHANNEL_QRIS           TRIPAY_CHANNEL = "QRIS"           // QRIS by ShopeePay
+	CHANNEL_QRISC          TRIPAY_CHANNEL = "QRISC"          //	QRIS (Customizable)
+	CHANNEL_QRIS2          TRIPAY_CHANNEL = "QRIS2"          // QRIS
+	CHANNEL_DANA           TRIPAY_CHANNEL = "DANA"           // DANA
+	CHANNEL_SHOPEEPAY      TRIPAY_CHANNEL = "SHOPEEPAY"      // ShopeePay
+	CHANNEL_QRIS_SHOPEEPAY TRIPAY_CHANNEL = "QRIS_SHOPEEPAY" //QRIS Custom by ShopeePay
+)
